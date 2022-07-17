@@ -14,7 +14,7 @@ function onGeoOk(position) {
     });
 }
 function onGeoError() {
-  alert("Sorry, Your Location does not been detacted.");
+  alert("Sorry, we can't figure out your location.");
 }
 
 navigator.geolocation.getCurrentPosition(onGeoOk, onGeoError);

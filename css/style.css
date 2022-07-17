@@ -1,0 +1,161 @@
+@import "reset.css";
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.hidden {
+  display: none;
+}
+
+.bg-image {
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  background-attachment: fixed;
+}
+
+#login-input {
+  width: 50%;
+  height: 80px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: none;
+  background: none;
+  border-bottom: 5px solid white;
+  font-size: 80px;
+  color: white;
+  text-align: center;
+}
+
+#login-input:focus {
+  outline: none;
+}
+
+#login-input::placeholder {
+  text-align: center;
+  color: white;
+  font-size: 60px;
+}
+
+.login-btn {
+  width: 200px;
+  height: 50px;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  font-size: 20px;
+  color: white;
+  border-radius: 50px;
+  border: 3px solid white;
+  opacity: 0.5;
+}
+
+.clock {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 120px;
+}
+
+#greeting {
+  width: 50%;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+#todo-input {
+  width: 50%;
+  height: 30px;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: none;
+  background: none;
+  border-bottom: 2px solid white;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+}
+
+#todo-input:focus {
+  outline: none;
+}
+
+#todo-input::placeholder {
+  font-size: 25px;
+  color: white;
+  text-align: center;
+}
+
+.qoute-box {
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.quote-span,
+.name-span {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+#weather {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+#todo-list {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  width: 90%;
+}
+
+.todo-li {
+  margin-bottom: 10px;
+}
+
+.todo-span {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.todo-button {
+  background: none;
+  width: 80px;
+  height: 30px;
+  border: 1px solid white;
+  border-radius: 20px;
+  color: white;
+  text-align: center;
+  margin-left: 10px;
+  font-size: 15px;
+}

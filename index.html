@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Momentum App</title>
+  </head>
+  <body>
+    <div id="bg-image-box"></div>
+    <form class="hidden" id="login-form">
+      <input
+        id="login-input"
+        required
+        maxlength="15"
+        type="text"
+        placeholder="Hello, what is your name?"
+        onfocus="this.placeholder=''"
+        onblur="this.placeholder='Hello, what is your name?'"
+      />
+      <button class="login-btn">Continue</button>
+    </form>
+    <h2 class="clock"></h2>
+    <h1 class="hidden" id="greeting"></h1>
+    <form id="todo-form">
+      <input
+        id="todo-input"
+        type="text"
+        placeholder="What is your main focus for today?"
+        required
+        onfocus="this.placeholder=''"
+        onblur="this.placeholder='What is your main focus for today?'"
+        class="hidden"
+      />
+    </form>
+    <ul id="todo-list"></ul>
+    <div id="quote" class="qoute-box">
+      <span class="quote-span"></span>
+      <span class="name-span"></span>
+    </div>
+    <div id="weather" class="weather-text">
+      <span class="weather-span"></span>
+      <span class="city-span"></span>
+    </div>
+    <script src="js/greeting.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+  </body>
+</html>
